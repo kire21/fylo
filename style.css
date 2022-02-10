@@ -22,11 +22,11 @@ html {
 }
 
 body {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   height: 100vh;
-  background: url(/images/bg-mobile.png) no-repeat;
+  background: url(./images/bg-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -38,7 +38,7 @@ h3 {
 
 @media screen and (min-width: 1024px) {
   body {
-    background: var(--color-very-dark-blue) url(/images/bg-desktop.png)
+    background: var(--color-very-dark-blue) url(./images/bg-desktop.png)
       no-repeat;
     background-size: contain;
     background-position: 0 100%;
@@ -198,7 +198,7 @@ h3 {
   }
 
   .message:after {
-    content: "";
+    content: '';
     position: absolute;
     width: 0;
     height: 0;
